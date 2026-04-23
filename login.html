@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Admin - MI SIROJUL HUDA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">MI SIROJUL HUDA</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profil.html">Profil</a></li>
+            <li><a href="informasi.html">Informasi</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="login.html" class="btn-login">Login</a></li>
+        </ul>
+    </nav>
+
+    <div class="login-wrapper">
+        <div class="login-card">
+            <div class="login-icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/295/295128.png" alt="User Icon" width="70">
+            </div>
+            
+            <h2>Admin Login</h2>
+            <p>Silahkan masukkan akun Anda</p>
+
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" id="username" placeholder="Username" required>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
+                <button type="button" class="btn-signin" onclick="cekLogin()">Masuk Ke Dashboard</button>
+            </form>
+            
+            <div class="login-footer">
+                <a href="index.html">← Kembali ke Beranda</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function cekLogin() {
+            // Karena PHP belum ada, kita pakai alert dulu buat simulasi
+            alert("Sistem Login akan berfungsi setelah kita sambungkan ke MySQL nanti!");
+        }
+    </script>
+
+</body>
+</html>
